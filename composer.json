@@ -1,0 +1,14 @@
+{
+    "name": "videoyukla/secure-proxy-client",
+    "description": "PHP kutubxona — Shifrlangan proxy orqali HTTP so‘rov yuborish",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "SecureProxy\\": "src/"
+      }
+    },
+    "require": {
+      "guzzlehttp/guzzle": "^7.0"
+    },
+    "license": "MIT"
+  }
