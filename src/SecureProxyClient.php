@@ -5,13 +5,6 @@ namespace SecureProxy;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 
-use Dotenv\Dotenv;
-
-$dotenv = Dotenv::createImmutable(__DIR__);
-$dotenv->load();
-
-$apiBase = $_ENV['API_BASE'];
-
 class SecureProxyClient
 {
     private string $apiBase = "https://videoyukla.uz/check/token";
